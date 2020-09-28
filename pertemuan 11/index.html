@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Konsep dasar CSS" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            background-color: #964e69;
+        }
+        h1 {
+            color: blue;
+        }
+        p {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+        }
+        a {
+            background-color: white;
+        }
+    </style>
+    <title>CSS Basic</title>
+</head>
+<body>
+     <h1 style="color: white; text-align: center;"> CSS Basic </h1>
+     <hr>
+     <hr>
+     <a href="about.html">Check Here</a>
+     <ol type="A">
+        <li><h2>Apa itu CSS?</h2></li>
+        <p>
+            CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.
+            CSS dibuat dan dikembangkan oleh W3C (World Wide Web Consortium) pada tahun 1996 untuk alasan yang sederhana. Dulu HTML tidak dilengkapi dengan tags yang berfungsi untuk memformat halaman. Anda hanya perlu menulis markup untuk situs.
+            Tags, seperti diperkenalkan di HTML versi 3.2, dan ketika itu menyebabkan banyak masalah bagi developer. Karena website memiliki berbagai font, warna background, dan style, maka untuk menulis kembali (rewrite) kode memerlukan proses yang sangat panjang dan sulit. Oleh sebab itu, W3C membuat CSS untuk menyelesaikan masalah ini.
+         </p>
+        <li><h2>Cara menggunakan CSS?</h2></li>
+        <p>
+            1. Inline CSS.
+            Inline CSS digunakan untuk memberi style (gaya) pada tag atau elemen HTML tertentu. Anda dapat menggunakan atribut style untuk memberi style pada tag HTML. Style hanya berlaku untuk tag HTML tersebut. Style di inline CSS memiliki prioritas utama dan yang akan digunakan (rendering) meskipun tag HTML tersebut juga sudah diberi style melalui internal CSS atau external CSS.
+            Pengunaan inline CSS sebenarnya tidak direkomendasikan karena setiap tag HTML perlu diberi style sendiri. Ketika Anda mengubah style di salah satu tag, untuk mendapatkan style yang konsisten, Anda juga perlu mengubah style pada tag-tag lainnya. Misalnya, semua h1 berwarna merah, ketika Anda ingin mengubah h1 menjadi berwarna hijau, Anda perlu mengubah style di semua h1 satu persatu agar berwana hijau.
+            <br>
+            <br>
+            2. Internal CSS.
+            Internal CSS digunakan untuk memberi style yang hanya berlaku pada satu laman web. Style yang diberikan diapit oleh tag <style> </style> dan diletakkan di bagian elemen head atau tag <head> dari laman web. Anda dapat menggunakan internal CSS bila pemberian style dimaksudkan hanya untuk satu laman web saja dan tidak untuk digunakan di laman web yang lain. Anda dapat menggunakan internal CSS bila kode untuk style tidak terlalu besar atau kompleks.
+            <br>
+            <br>
+            3. External CSS.
+            External CSS adalah file berekstensi .css yang hanya berisi kode-kode style. Tujuan menggunakan external CSS adalah untuk memisahkan kode style dengan struktur dan tipe konten laman web. External CSS dapat diaplikasikan pada lebih dari satu laman web sehingga semua laman web akan memiliki tampilan atau desain yang seragam.
+            Sebagai contoh, buat file CSS bernama csseksternal.css menggunakan plain text editor seperti Notepad atau Notepad++. Tuliskan kode CSS di bawah ini sebagai style yang akan diberlakukan di laman web. Simpan file CSS di folder yang sama tempat menyimpan file HTML.
+      </p>
+        <li><h2>Keuntungan belajar CSS</h2></li>
+        <p>
+            Dengan belajar CSS kamu (sebagai seorang web designer) bahkan bisa lebih mudah mengendalikan website. Kamu tidak harus pusing-pusing mengutak-atik HTML saat harus memprogram ulang tampilan laman. Bahkan pada CSS tingkat lanjut, kamu bisa mengatur website lewat medium yang lain seperti suara. Keuntungan lain dari belajar CSS adalah tingkat compatibility yang tinggi. CSS kompatibel dengan kebanyakan browsers dan sangat user-friendly.
+        </p>
+    </ol>
+</body>
+</html>
