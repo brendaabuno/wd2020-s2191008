@@ -1,0 +1,41 @@
+/*.error {
+    color:white;
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.success feedback {
+    color: green;
+    border: 5px solid yellow;
+}*/
+#top-container {
+    background-color: rgb(76, 103, 160);
+}
+#bottom-container {
+    background-color: lightgray;
+}
+
+div .error {
+    color: white;
+}
+
+a[href] {
+    font-size: 30;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(72, 199, 182);
+}
+a[href*="google"] {
+    background-color: skyblue;
+}
+a[href$="ac.id"] {
+    background-color: yellowgreen;
+}
+
+h1:hover {
+    color: white;
+    background-color: black;
+}
