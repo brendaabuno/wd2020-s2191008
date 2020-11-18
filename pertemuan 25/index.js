@@ -64,3 +64,10 @@ let zodiac = ["Virgo", "Leo", "Sagitarius", "Cancer"];
 zodiac.sort();
 
 console.log(zodiac);
+
+//reverse
+let kpop = ["Blackpink", "BTS", "EXO", "Twice"];
+console.log(kpop);
+
+kpop.reverse();
+console.log(kpop);
