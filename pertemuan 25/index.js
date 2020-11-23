@@ -1,73 +1,45 @@
-//Array
+//console.log("JavaScript DOM");
 
-let nilai = [90, 88, 75, 95, 85];
+//const person = ["john", 24, "programmer", true]
+// const person = {
+//     name: "john",
+//     age: 24,
+//     job: "programmer",
+//     isMarried: true,
+//     sayHello: function()
+//     {
+//         console.log("Hello World");
+//     }
+// };
 
-for (let i=0; i<nilai.length; i++){
-    console.log("Nilai = ", nilai[i] +5);
+// person.age = 25;
+// person["address"] = "Manado";
+
+// console.log(person.name);
+// console.log(person["age"]);
+
+// delete person.address;
+// console.log(person);
+
+// person.sayHello();
+
+let title = document.getElementsByTagName("h1") [0].innerText;
+
+title = document.getElementById("header2").innerText;
+console.log(title);
+
+let umur = document.getElementById("umur").value;
+console.log(umur);
+
+function helloWorld()
+{
+    let value = document.getElementById("umur").value;
+    document.getElementsByTagName("p")[i], innerText = value;
+    document.querySelector(".header").style.color = "red";
+    document.querySelector(".header").style.fontSize = "3em";
+    document.querySelector(".header").style.backgroundColor = "yellow";
+
+    let span = document.getElementsByTagName("span")[0];
+    
+    console.log(value);
 }
-
-console.log(nilai);
-
-//nilai[2] = 90;
-//console.log{nilai [nilai.lenght -1]};
-
-let john = ["john", "doe", 33, true];
-console.log(john[john.length - 1]);
-console.log(john);
-
-//tostring()
-console.log(john.toString());
-//join()
-console.log(john.join("  -  "));
-
-//pop()
-john.pop();
-console.log(john.join("  -  "));
-
-//push()
-john.push(true);
-john.push("HELLO");
-console.log(john.join("  -  "));
-
-//shift()
-john.shift();
-console.log(john.join("  -  "));
-
-//unshift()
-john.unshift("john");
-john.unshift("prof");
-console.log(john.join("  -  "));
-
-//splice()
-let buah=["pisang", "jeruk", "apel", "mangga"];
-buah.splice(2,0, "Lemon", "Kiwi");
-console.log(buah);
-
-//concat()
-let sayur=["bayam", "kangkung", "wortel"];
-let biji=["kedelai", "kacang"];
-
-let makanan = buah.concat(sayur, biji);
-console.log(makanan);
-
-//slice()
-let snack = ["Lays", "Qtela", "Citato", "Oreo", "Tanggo"];
-let snackGurih = snack.slice(0, 3);
-let snackManis = snack.slice(3);
-
-console.log(snackGurih);
-console.log(snackManis);
-
-//sort
-let zodiac = ["Virgo", "Leo", "Sagitarius", "Cancer"];
-
-zodiac.sort();
-
-console.log(zodiac);
-
-//reverse
-let kpop = ["Blackpink", "BTS", "EXO", "Twice"];
-console.log(kpop);
-
-kpop.reverse();
-console.log(kpop);
